@@ -8,6 +8,8 @@ dbt run --select elementary
 dbt run --vars "{'anomalies': True}"
 dbt test --target elementary
 dbt run --target elementary
+dbt run
+dbt test
 edr report -t elementary
 
 # Keep the container running
