@@ -1,0 +1,18 @@
+elementary:
+  outputs:
+    default:
+      type: postgres
+      host: db
+      user: user
+      password: secret_password
+      port: 5432
+      dbname: mydatabase
+      schema: public
+    elementary:
+      type: postgres
+      host: db
+      user: user
+      password: secret_password
+      port: 5432
+      dbname: mydatabase
+      schema: public_elementary

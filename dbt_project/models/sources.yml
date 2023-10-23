@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: public
+    tables:
+      - name: users_info
+        columns:
+            - name: username
+              tests:
+                - unique
+                - not_null
